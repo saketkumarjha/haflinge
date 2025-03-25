@@ -14,7 +14,7 @@ const featuresData = {
       imageSrc: image,
       alt: "Solar energy panels installation",
       description:
-        "Our innovative solar energy solutions provide clean, renewable power for residential and commercial applications. We offer comprehensive solar panel installation and maintenance services. At Haflinger Technologies, we design custom solar systems that maximize energy production while minimizing costs. Our team of experts handles everything from initial assessment to installation and ongoing maintenance. We use the latest solar technology to ensure optimal performance and longevity.Our innovative solar energy solutions provide clean, renewable power for residential and commercial applications. We offer comprehensive solar panel installation and maintenance services. At Haflinger Technologies, we design custom solar systems that maximize energy production while minimizing costs. Our team of experts handles everything from initial assessment to installation and ongoing maintenance. We use the latest solar technology to ensure optimal performance and longevity.",
+        "Our innovative solar energy solutions provide clean, renewable power for residential and commercial applications. We offer comprehensive solar panel installation and maintenance services. At i10Ai Technologies, we design custom solar systems that maximize energy production while minimizing costs. Our team of experts handles everything from initial assessment to installation and ongoing maintenance. We use the latest solar technology to ensure optimal performance and longevity.Our innovative solar energy solutions provide clean, renewable power for residential and commercial applications. We offer comprehensive solar panel installation and maintenance services. At i10Ai Technologies, we design custom solar systems that maximize energy production while minimizing costs. Our team of experts handles everything from initial assessment to installation and ongoing maintenance. We use the latest solar technology to ensure optimal performance and longevity.",
     },
     {
       title: "Smart Grid Technology",
@@ -48,11 +48,11 @@ export default function FeaturesPage() {
       {/* About company section can be placed here */}
       <div className="container mx-auto px-4 sm:px-6 w-full sm:w-full md:w-full lg:w-[75vw] py-12 ">
         <h1 className="text-3xl text-black font-nunito font-semibold">
-          About Haflinger Technologies
+          About i10Ai Technologies
         </h1>
 
         <p className="text-gray-900 text-1xl w-full mt-7 mx-auto font-nunito font-semibold">
-          Haflinger Technologies Pvt Ltd. is a company that provides
+          i10Ai Technologies Pvt Ltd. is a company that provides
           high-quality solutions in the fields of Electrical - electronics
           engineering & Renewable energy. We are committed to delivering
           innovative products and services to our customers in various

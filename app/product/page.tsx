@@ -1,17 +1,15 @@
 "use client";
 
-
-
-
 import ZigzagSection from "../components/sections/ZigzagSection";
 import image2 from "../assets/images/solar-plates.jpg";
 import image from "../assets/images/productImg/mcb.png";
 import prdctImg1 from "../assets/images/productImg/Collection of metal pipes.jpg";
 import prdctImg2 from "../assets/images/productImg/electric-power-adapter-isolated-white-background.jpg";
 import prdctImg3 from "../assets/images/productImg/electrical-cable-energy-technology-equipment-isolated-white.jpg";
+import aboutprdct from "../assets/images/productImg/aboutprdct.jpg";
 import HeroSection from "../components/sections/Hero";
 import ImageSlider from "../components/sections/SliderSection";
-import AnimatedProductGrid from '../components/animations/AnimatedProductGrid';
+import AnimatedProductGrid from "../components/animations/AnimatedProductGrid";
 
 // Features data example
 const featuresData = {
@@ -24,7 +22,7 @@ const featuresData = {
       imageSrc: image,
       alt: "Solar energy panels installation",
       description:
-        "Our innovative solar energy solutions provide clean, renewable power for residential and commercial applications. We offer comprehensive solar panel installation and maintenance services. At Haflinger Technologies, we design custom solar systems that maximize energy production while minimizing costs. Our team of experts handles everything from initial assessment to installation and ongoing maintenance. We use the latest solar technology to ensure optimal performance and longevity.Our innovative solar energy solutions provide clean, renewable power for residential and commercial applications. We offer comprehensive solar panel installation and maintenance services. At Haflinger Technologies, we design custom solar systems that maximize energy production while minimizing costs. Our team of experts handles everything from initial assessment to installation and ongoing maintenance. We use the latest solar technology to ensure optimal performance and longevity.",
+        "Our innovative solar energy solutions provide clean, renewable power for residential and commercial applications. We offer comprehensive solar panel installation and maintenance services. At i10Ai Technologies, we design custom solar systems that maximize energy production while minimizing costs. Our team of experts handles everything from initial assessment to installation and ongoing maintenance. We use the latest solar technology to ensure optimal performance and longevity.Our innovative solar energy solutions provide clean, renewable power for residential and commercial applications. We offer comprehensive solar panel installation and maintenance services. At i10Ai Technologies, we design custom solar systems that maximize energy production while minimizing costs. Our team of experts handles everything from initial assessment to installation and ongoing maintenance. We use the latest solar technology to ensure optimal performance and longevity.",
     },
     {
       title: "Smart Grid Technology",
@@ -43,37 +41,44 @@ const featuresData = {
   ],
 };
 
-const productImages = [prdctImg1, prdctImg2, prdctImg3, prdctImg2, prdctImg1, image];
+const productImages = [
+  prdctImg1,
+  prdctImg2,
+  prdctImg3,
+  prdctImg2,
+  prdctImg1,
+  image,
+];
 
 const sliderItems = [
   {
     id: 1,
     image: image,
-    heading: 'Welcome to Our Platform',
-    subheading: 'Discover amazing features and services tailored just for you',
+    heading: "Welcome to Our Platform",
+    subheading: "Discover amazing features and services tailored just for you",
   },
   {
     id: 2,
     image: image,
-    heading: 'Innovative Solutions',
-    subheading: 'Empowering businesses with cutting-edge technology',
+    heading: "Innovative Solutions",
+    subheading: "Empowering businesses with cutting-edge technology",
   },
   {
     id: 3,
     image: image,
-    heading: 'Dedicated Support',
-    subheading: 'Our team is here to help you every step of the way',
+    heading: "Dedicated Support",
+    subheading: "Our team is here to help you every step of the way",
   },
 ];
 
-
-
 export default function FeaturesPage() {
-
-  
   return (
     <>
-      <HeroSection />
+      <HeroSection
+        imgSrc={aboutprdct}
+        h1Content="our innovative product"
+        pContent="Embark on your Industrial Revolution journey with our cutting-edge AI solutions"
+      />
       <section className="py-12 px-0 sm:px-4 bg-gray-50">
         <div className="container mx-auto px-0 sm:px-6 w-full sm:w-full md:w-full lg:w-[75vw] flex flex-col items-start">
           <h1 className="text-5xl text-black self-center mb-[50px]">
@@ -85,11 +90,11 @@ export default function FeaturesPage() {
           <p className="md:text-lg text-gray-900 sm:text-base lg:text-xl">
             Whether you have a fleet of robots that&apos;s been bought towards
             the end of the previous century, or robots from tomorrow&apos;s
-            state-of-the-art technology, Xnergy&apos;s Universal Contactless charging
-            technology works as one charger for all robots that run on any
-            batteries. Along with its generous air gap tolerance and small foot
-            print, it allows for non-precision docking and easy integration into
-            both your legacy and modernised fleets. Coupled with its fast
+            state-of-the-art technology, Xnergy&apos;s Universal Contactless
+            charging technology works as one charger for all robots that run on
+            any batteries. Along with its generous air gap tolerance and small
+            foot print, it allows for non-precision docking and easy integration
+            into both your legacy and modernised fleets. Coupled with its fast
             charging capability, Xnergy&apos;s Universal Contactless Charger
             significantly improves your robots uptime at a fraction of the cost.
             Your legacy made relevant today, for tomorrow.
@@ -105,21 +110,22 @@ export default function FeaturesPage() {
         showMoreButton={true}
         backgroundColor="bg-gray-50"
       />
-            <section className="py-12 px-0 sm:px-4 bg-gray50">
-      <div className="container mx-auto px-0 sm:px-6 w-full sm:w-full md:w-full lg:w-[75vw] flex flex-col items-start">
-        <h1 className="text-5xl text-black self-center mb-[20px]">Automotive Connector </h1>
-        <p className="md:text-lg text-gray-900 sm:text-base lg:text-xl">
+      <section className="py-12 px-0 sm:px-4 bg-gray50">
+        <div className="container mx-auto px-0 sm:px-6 w-full sm:w-full md:w-full lg:w-[75vw] flex flex-col items-start">
+          <h1 className="text-5xl text-black self-center mb-[20px]">
+            Automotive Connector{" "}
+          </h1>
+          <p className="md:text-lg text-gray-900 sm:text-base lg:text-xl">
             Whether you have a fleet of robots that&apos;s been bought towards
             the end of the previous century, or robots from tomorrow&apos;s
-            state-of-the-art technology, Xnergy&apos;s Universal Contactless charging
-            technology works as one charger for all robots that run on any
-            batteries.
+            state-of-the-art technology, Xnergy&apos;s Universal Contactless
+            charging technology works as one charger for all robots that run on
+            any batteries.
           </p>
           <AnimatedProductGrid productImages={productImages} />
-      </div>
+        </div>
       </section>
       <ImageSlider items={sliderItems} autoPlayInterval={2000} />
-
     </>
   );
 }

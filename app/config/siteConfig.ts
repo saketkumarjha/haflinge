@@ -1,8 +1,8 @@
 // config/siteConfig.ts
 export const siteConfig = {
-    name: "Haflinger Technologies Pvt Ltd",
+    name: "i10Ai Technologies Pvt Ltd",
     description: "Your company description here",
-    url: "https://haflingertech.com",
+    url: "https://i10Aitech.com",
     footer: {
       address: {
         street: "903, B2, Unnathi Woods, Phase II",
@@ -12,13 +12,13 @@ export const siteConfig = {
         pin: "400615"
       },
       contacts: {
-        email: ["Sales@haflingertech.com", "info@haflingertech.com"],
+        email: ["Sales@i10Aitech.com", "info@i10Aitech.com"],
         phone: ["+91 22 6251 3861"]
       },
       socialMedia: {
-        twitter: "https://twitter.com/haflingertech",
-        facebook: "https://facebook.com/haflingertech",
-        linkedin: "https://linkedin.com/company/haflingertech"
+        twitter: "https://twitter.com/i10Aitech",
+        facebook: "https://facebook.com/i10Aitech",
+        linkedin: "https://linkedin.com/company/i10Aitech"
       }
     }
   };

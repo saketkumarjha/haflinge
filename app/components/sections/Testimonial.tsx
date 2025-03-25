@@ -8,21 +8,21 @@ import FadeIn from '../animations/FadeIn';
 const testimonials = [
   {
     id: 1,
-    quote: "Haflinger Tech's solutions have revolutionized our healthcare operations. Our patient satisfaction scores have increased by 28% since implementation.",
+    quote: "i10Ai Tech's solutions have revolutionized our healthcare operations. Our patient satisfaction scores have increased by 28% since implementation.",
     author: "Dr. Sarah Johnson",
     position: "CTO, RegionalCare Hospital Network",
     image: "/api/placeholder/64/64",
   },
   {
     id: 2,
-    quote: "The manufacturing solutions provided by Haflinger Tech reduced our downtime by 47%, resulting in significant cost savings and increased productivity.",
+    quote: "The manufacturing solutions provided by i10Ai Tech reduced our downtime by 47%, resulting in significant cost savings and increased productivity.",
     author: "Michael Chen",
     position: "Operations Director, Auto Parts Manufacturing",
     image: "/api/placeholder/64/64",
   },
   {
     id: 3,
-    quote: "Our digital banking transformation with Haflinger Tech led to a 156% increase in online transactions and dramatically improved customer satisfaction.",
+    quote: "Our digital banking transformation with i10Ai Tech led to a 156% increase in online transactions and dramatically improved customer satisfaction.",
     author: "Emma Rodriguez",
     position: "Innovation Lead, First Regional Bank",
     image: "/api/placeholder/64/64",

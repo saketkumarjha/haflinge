@@ -1,19 +1,19 @@
 "use client";
 import { motion } from "framer-motion";
 import Image from "next/image";
-import hero from "../../assets/images/hero.png"; 
-import { StaticImport } from "next/dist/shared/lib/get-img-props"; 
+import hero from "../../assets/images/hero.png";
+import { StaticImport } from "next/dist/shared/lib/get-img-props";
 
 // Define the interface for the props
 interface HeroSectionProps {
-  imgSrc?: string | StaticImport; // Make imgSrc optional
-  h1Content?: string; // Make h1Content optional
+  imgSrc: string | StaticImport; // Make imgSrc optional
+  h1Content: string; // Make h1Content optional
   pContent?: string; // pContent is already optional
 }
 
 // Set default values for the props
 const defaultProps: HeroSectionProps = {
-  imgSrc: hero, 
+  imgSrc: hero,
   h1Content: "Predict the future by <br /> creating it",
   pContent: "YOU DIDN'T COME THIS FAR TO STOP.",
 };
@@ -28,7 +28,7 @@ export default function HeroSection({
     <div className="container relative w-full h-[60vh] sm:h-[60vh] md:h-[30vh] lg:h-[60vh] overflow-hidden">
       {/* Background Image */}
       <Image
-        src={imgSrc} 
+        src={imgSrc}
         alt="Technology background"
         fill
         priority
@@ -50,9 +50,11 @@ export default function HeroSection({
           >
             <h1
               className="text-2xl sm:text-3xl md:text-4xl lg:text-4xl font-bold mb-4 0 text-yellow-500"
-              dangerouslySetInnerHTML={{ __html: h1Content }} 
+              dangerouslySetInnerHTML={{ __html: h1Content }}
             />
-            <p className="text-base sm:text-lg md:text-xl mb-8 text-yellow-500">{pContent}</p>
+            <p className="text-base sm:text-lg md:text-xl mb-8 text-yellow-500">
+              {pContent}
+            </p>
           </motion.div>
         </div>
       </div>

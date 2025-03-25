@@ -18,7 +18,7 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
-  title: "Haflinger Tech - Technology Solutions",
+  title: "i10Ai Tech - Technology Solutions",
   description:
     "Innovative technology solutions for various industries including healthcare, manufacturing, finance, and retail.",
 };
