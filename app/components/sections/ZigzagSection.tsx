@@ -49,7 +49,7 @@ const ReusableSection: React.FC<SectionProps> = ({
   cardTitleClassName = "text-center font-bold text-lg md:text-xl mt-4",
   cardTextClassName = "text-gray-700 mt-2",
 }) => {
-  const [ref, inView] = useInView({
+  const [ref] = useInView({
     triggerOnce: true,
     threshold: 0.1,
   });
@@ -152,7 +152,7 @@ const GridCard: React.FC<GridCardProps> = ({
   textClassName,
   showMoreButton,
 }) => {
-  const [ref, inView] = useInView({
+  const [ref] = useInView({
     triggerOnce: true,
     threshold: 0.1,
   });

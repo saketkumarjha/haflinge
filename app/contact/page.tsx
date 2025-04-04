@@ -108,7 +108,7 @@ const ContactPage: React.FC = () => {
             Get in Touch
           </h1>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-            Have questions or need assistance? We're here to help. Reach out to
+            Have questions or need assistance? We are here to help. Reach out to
             our team using the form below.
           </p>
         </motion.div>

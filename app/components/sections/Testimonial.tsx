@@ -4,7 +4,7 @@
 import { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import FadeIn from '../animations/FadeIn';
-
+import Image from 'next/image';
 const testimonials = [
   {
     id: 1,
@@ -47,7 +47,7 @@ export default function Testimonials() {
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold mb-4">What Our Clients Say</h2>
             <p className="text-blue-100 max-w-2xl mx-auto">
-              Don't just take our word for it. Hear from the businesses we've helped transform.
+              Do not  just take our word for it. Hear from the businesses we had ve helped transform.
             </p>
           </div>
         </FadeIn>
@@ -65,11 +65,14 @@ export default function Testimonials() {
               <div className="flex flex-col md:flex-row items-center md:items-start gap-6">
                 <div className="flex-shrink-0">
                   <div className="w-16 h-16 md:w-20 md:h-20 rounded-full overflow-hidden bg-primary-light">
-                    <img
+                    <Image
                       src={testimonials[currentIndex].image}
                       alt={testimonials[currentIndex].author}
+                      width={80}
+                      height={80}
                       className="w-full h-full object-cover"
                     />
+
                   </div>
                 </div>
                 <div className="flex-1">

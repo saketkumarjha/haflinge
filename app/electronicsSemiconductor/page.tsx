@@ -104,7 +104,12 @@ const ServicesSection: React.FC = () => {
 
   return (
     <>
-      <HeroSection />
+    
+     <HeroSection
+        imgSrc={image2}
+        h1Content="Xnergy <br /> Universal Contactless Charger"
+        pContent="The future of charging is here."
+      />
       <section className="py-12 px-0 sm:px-4 bg-gray-50">
         <div className="container mx-auto px-0 sm:px-6 w-full sm:w-full md:w-full lg:w-[75vw] flex flex-col items-start">
           {/* Animated h1 */}
