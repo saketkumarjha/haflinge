@@ -1,3 +1,4 @@
+This website is clone of https://www.haflingertech.com/ (Education purpose)
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
